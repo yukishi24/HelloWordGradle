@@ -61,3 +61,14 @@ tasks.eclipse.dependsOn << {
         }
     }
 }
+
+version = 1.0
+
+jar{
+	manifest{
+		attributes 'Main-Class':'hello.Main'
+	}
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
